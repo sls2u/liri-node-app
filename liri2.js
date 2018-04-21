@@ -1,5 +1,5 @@
 // add code to read and set any environment variables with the dotenv package
-// require("dotenv").config();
+//
 // function with a local file path as the function’s only argument
 var keys = require('./assets/javascript/keys.js');
 // fs is Core node package for reading and writing files
