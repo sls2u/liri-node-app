@@ -76,11 +76,6 @@ var getMovie = function(movieName) {
   })
 };
 
-fs.writeFile('random.txt', 'uft8', function (err, data) {
-  if (err) throw err;
-  console.log(err);
-});
-
 var choose = function(command, functionData) {
   switch (command) {
     case 'my-tweets':
@@ -93,8 +88,9 @@ var choose = function(command, functionData) {
     case 'movie-this':
       getMovie(functionData);
       break;
-    default:
+     default:
       console.log('Not now...');
+
   }
 
 };
